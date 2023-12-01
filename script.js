@@ -39,3 +39,12 @@ function greet(name) {
 
 const greeting = greet('John');
 console.log(greeting);
+
+// Logical operators - It always returns the first value that matches the condition
+console.log('true && true :', true && true); // true
+console.log('true && false :', true && false); // false
+console.log('false && false :', false && false); // false
+
+console.log('true && 1 :', true && 1); // 1
+console.log('true && null :', true && null); // null
+console.log('false && 0 :', false && 0); // false
