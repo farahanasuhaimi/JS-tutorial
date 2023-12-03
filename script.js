@@ -56,6 +56,9 @@ age >= 18
   : console.log("You are not an adult");
 
 // For loop
+// for ([initialExpression]; [condition]; [+-Expression]) {
+// code
+// }
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
@@ -66,5 +69,3 @@ while (i < 10) {
   console.log(i);
   i++;
 }
-
-//
