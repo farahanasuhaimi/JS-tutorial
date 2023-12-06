@@ -18,3 +18,16 @@ function outerFunc() {
 }
 
 outerFunc();
+
+// hoisting
+function hoist(){
+  console.log(b);
+  var b = 10;
+}
+hoist(); 
+
+hoist_func();
+function hoist_func() {
+  var b = 10;
+  console.log(b);
+}
